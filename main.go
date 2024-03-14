@@ -1,8 +1,6 @@
 package main
 
-import (
-  "fmt"
-)
+import "fmt"
 
 func hello() {
   fmt.Println("hi")
@@ -13,5 +11,5 @@ func bye() {
 }
 
 func main() {
-  fmt.Println(bye())
+  bye()
 }
