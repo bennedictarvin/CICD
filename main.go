@@ -11,6 +11,5 @@ func bye() {
 }
 
 func main() {
-  hello()
   bye()
 }
